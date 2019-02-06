@@ -8,8 +8,8 @@ A disorganized heap of dotfiles
 
 ### Todo
 
-* Make Ubuntu .bash_profile minimalistic, cut the cruft
-
+* Make Ubuntu .bashrc minimal
+* Remove macos related functions from ubuntu .bashrc if applicable
 
 
 ### License
