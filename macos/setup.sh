@@ -90,53 +90,27 @@ do
     echo "Downloading $i"
 done
 
-# HOMEBREW CTF PACKAGES
-#brewctflist=(
-#    aircrack-ng
-#    bfg
-#    binutils
-#    binwalk
-#    cifer
-#    dex2jar
-#    dns2tcp
-#    fcrackzip
-#    foremost
-#    hashpump
-#    hydra
-#    john
-#    knock
-#    netpbm
-#    nmap
-#    pngcheck
-#    socat
-#    sqlmap
-#    tcpflow
-#    tcpreplay
-#    tcptrace
-#    ucspi-tcp 
-#    xpdf
-#    xz 
-#    )
-#for i in "${brewctflist[@]}"
-#do
-#    brew install $i
-#    echo "Downloading $i"
-#done
-
 # HOMEBREW CASK APP LIST
 brewcasklist=(
-	airdisplay
-	airserver
+    airtable
+    alfred
+    android-studio
+    dash
+    datagrip
 	dropbox
 	firefox
 	google-chrome
 	iterm2
-	macvim
+    knockknock
+    macdown
 	mou
-	opera
-	plex-media-server
+    postman
+    screenflow
+    slack
 	spotify
-	sublime
+    teamviewer
+    tunnelblick
+    visual-studio-code
 	vlc
 	)
 for i in "${brewcasklist[@]}"

@@ -3,20 +3,19 @@
 ## Apps
 
 * Adobe Suite
-* Air Bridge
 * Airtable
 * Alfred
 * Android Studio
 * AutoCAD
 * Autodesk Fusion
-* Automator
 * Backup Gmail
 * BetterSnapTool
 * Blender
-* Chrome, Firefox
+* Chrome
 * Dash
 * DataGrip
 * Disk Map Analyzer
+* Firefox
 * Grammarly
 * iTerm
 * Keybase
@@ -24,9 +23,9 @@
 * KnockKnock
 * Macdown
 * NoIMGData
-* Office, Excel
-* Pages, Numbers
-* Plex Client
+* Numbers
+* Office
+* Pages
 * Postman
 * Screenflow
 * Sketch
