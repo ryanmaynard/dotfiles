@@ -2,36 +2,39 @@
 
 ## Apps
 
-* Alfred
-* iTerm
-* BetterSnapTool
-* Dash
-* Spotify
-* Macdown
-* Airtable
-* Disk Map Analyzer
-* Slack
-* Keybase
-* Screenflow
-* Kiwi
-* Grammarly
-* Backup Gmail
-* KnockKnock
-* Sketch
-* Tunnelblick
-* Automator
-* Private Eye
-* VLC
-* Plex Client
-* Principle
-* Tumult Hype
-* NoIMGData
-* AutoCAD
-* Sketchup
-* Blender
-* Autodesk Fusion
-* Air Bridge
 * Adobe Suite
-* Pages, Numbers
-* Office, Excel
+* Air Bridge
+* Airtable
+* Alfred
+* Android Studio
+* AutoCAD
+* Autodesk Fusion
+* Automator
+* Backup Gmail
+* BetterSnapTool
+* Blender
 * Chrome, Firefox
+* Dash
+* DataGrip
+* Disk Map Analyzer
+* Grammarly
+* iTerm
+* Keybase
+* Kiwi
+* KnockKnock
+* Macdown
+* NoIMGData
+* Office, Excel
+* Pages, Numbers
+* Plex Client
+* Postman
+* Screenflow
+* Sketch
+* Sketchup
+* Slack
+* Spotify
+* Teamviewer
+* Tunnelblick
+* VLC
+* VSCode
+* Xcode
