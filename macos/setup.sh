@@ -34,5 +34,3 @@ if [[ $? -ne 0 ]]; then
     # Install Homebrew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-brew update
-brew upgrade --all

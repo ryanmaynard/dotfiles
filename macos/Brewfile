@@ -10,13 +10,19 @@
 # BINARIES
 
 brew 'bash'
+brew 'binutils'
 brew 'coreutils'
+brew 'diffutils'
 brew 'docker'
 brew 'docker-compose'
 brew 'docker-machine'
 brew 'docker-machine-driver-xhyve'
 brew 'docker-swarm'
+brew 'fasd'
 bash 'findutils'
+brew 'gnu-sed'
+brew 'gnu-tar'
+brew 'gnu-which'
 brew 'goenv'
 brew 'grep'
 brew 'kubernetes-cli'
@@ -32,6 +38,8 @@ brew 'stow'
 brew 'tmux'
 brew 'tree'
 brew 'vim'
+brew 'watch'
+brew 'wdiff'
 brew 'wget', args: ['with-iri']
 brew 'xquartz', args: ['force']
 
