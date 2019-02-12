@@ -10,6 +10,7 @@ A disorganized heap of dotfiles
 
 * Make Ubuntu .bashrc minimal
 * Remove macos related functions from ubuntu .bashrc if applicable
+* Convert mac setup.sh sections to Brewfiles where applicable
 
 
 ### License
