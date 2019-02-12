@@ -17,7 +17,7 @@ Installed and maintained with GNU Stow
 
 * Make Ubuntu .bashrc minimal
 * Remove macos related functions from ubuntu .bashrc if applicable
-* Convert mac setup.sh sections to Brewfiles where applicable
+* Thoroughly test Brewfile, especially check order of setup.sh
 
 
 ### License

@@ -1,105 +1,73 @@
 # TAPS
 
-"homebrew/core"
-"homebrew/bundle"
-"homebrew/services"
-"homebrew/versions"
-"caskroom/cask"
+'homebrew/core'
+'homebrew/bundle'
+'homebrew/services'
+'homebrew/versions'
+'caskroom/cask'
 
-
-# INSTALL OSX SYSTEM REQUIREMENTS
-brew cask install --force xquartz
-
-# INSTALL GNU CORE UTILITIES (THOSE THAT COME WITH MACOS ARE OUTDATED).
-# DON’T FORGET TO ADD `$(BREW --PREFIX COREUTILS)/LIBEXEC/GNUBIN` TO `$PATH`.
-brew coreutils
-ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-
-# INSTALL SOME OTHER USEFUL UTILITIES LIKE `SPONGE`.
-brew moreutils
-# INSTALL GNU `FIND`, `LOCATE`, `UPDATEDB`, AND `XARGS`, `G`-PREFIXED.
-brew findutils
-# INSTALL GNU `SED`, OVERWRITING THE BUILT-IN `SED`.
-brew gnu-sed --with-default-names
-
-# INSTALL BASH 4.
-# NOTE: DON’T FORGET TO ADD `/USR/LOCAL/BIN/BASH` TO `/ETC/SHELLS` BEFORE
-# RUNNING `CHSH`.
-brew bash
-brew bash-completion2
-
-# SWITCH TO USING BREW-INSTALLED BASH AS DEFAULT SHELL
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
-
-# INSTALL WGET WITH IRI SUPPORT
-brew install wget --with-iri
-
-# INSTALL MORE RECENT VERSIONS OF SOME MACOS TOOLS.
-brew vim --override-system-vi
-brew homebrew/dupes/grep
-brew homebrew/dupes/openssh
-brew homebrew/dupes/screen
 
 # BINARIES
 
-brew docker
-brew docker-compose
-brew docker-machine
-brew docker-machine-driver-xhyve
-brew docker-swarm
-brew goenv
-brew kubernetes-cli
-brew nvm
-brew pyenv
-brew pyenv-virtualenv
-brew pyenv-virtualenvwrapper
-brew rbenv
-brew stow
-brew tmux
-brew tree
+brew 'bash'
+brew 'coreutils'
+brew 'docker'
+brew 'docker-compose'
+brew 'docker-machine'
+brew 'docker-machine-driver-xhyve'
+brew 'docker-swarm'
+bash 'findutils'
+brew 'goenv'
+brew 'grep'
+brew 'kubernetes-cli'
+brew 'moreutils'
+brew 'nvm'
+brew 'openssh'
+brew 'pyenv'
+brew 'pyenv-virtualenv'
+brew 'pyenv-virtualenvwrapper'
+brew 'rbenv'
+brew 'screen'
+brew 'stow'
+brew 'tmux'
+brew 'tree'
+brew 'vim'
+brew 'wget', args: ['with-iri']
+brew 'xquartz', args: ['force']
 
 # BREW CASK APPS
 
-cask adobe-creative-cloud
-cask airtable
-cask alfred
-cask android-studio
-cask dash
-cask datagrip
-cask dropbox
-cask firefox
-cask google-chrome
-cask iterm2
-cask knockknock
-cask macdown
-cask mou
-cask postman
-cask screenflow
-cask slack
-cask spotify
-cask teamviewer
-cask tunnelblick
-cask visual-studio-code
-cask vlc
+cask 'adobe-creative-cloud'
+cask 'airtable'
+cask 'alfred'
+cask 'android-studio'
+cask 'dash'
+cask 'datagrip'
+cask 'dropbox'
+cask 'firefox'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'knockknock'
+cask 'macdown'
+cask 'mou'
+cask 'postman'
+cask 'screenflow'
+cask 'slack'
+cask 'spotify'
+cask 'teamviewer'
+cask 'tunnelblick'
+cask 'visual-studio-code'
+cask 'vlc'
 
 # TAB COMPLETION
 
-brew brew-cask-completion
-brew bundler-completion
-brew docker-compose-completion
-brew docker-machine-completion
-brew gem-completion
-brew pip-completion
-brew rails-completion
-brew rake-completion
-brew ruby-completion
-
-#  CLEAN THINGS UP
-
-brew linkapps
-brew cleanup
-brew prune
-brew cask cleanup
+brew 'bash-completion2'
+brew 'brew-cask-completion'
+brew 'bundler-completion'
+brew 'docker-compose-completion'
+brew 'docker-machine-completion'
+brew 'gem-completion'
+brew 'pip-completion'
+brew 'rails-completion'
+brew 'rake-completion'
+brew 'ruby-completion'
