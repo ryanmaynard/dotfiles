@@ -5,6 +5,7 @@
 'homebrew/services'
 'homebrew/versions'
 'caskroom/cask'
+'beeftornado/rmtree'
 
 
 # BINARIES
@@ -33,6 +34,7 @@ brew 'pyenv'
 brew 'pyenv-virtualenv'
 brew 'pyenv-virtualenvwrapper'
 brew 'rbenv'
+brew 'rmtree'
 brew 'screen'
 brew 'stow'
 brew 'tmux'
@@ -42,6 +44,7 @@ brew 'watch'
 brew 'wdiff'
 brew 'wget', args: ['with-iri']
 brew 'xquartz', args: ['force']
+
 
 # BREW CASK APPS
 
@@ -66,6 +69,7 @@ cask 'teamviewer'
 cask 'tunnelblick'
 cask 'visual-studio-code'
 cask 'vlc'
+
 
 # TAB COMPLETION
 
