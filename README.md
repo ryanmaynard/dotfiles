@@ -6,6 +6,13 @@
 
 A disorganized heap of dotfiles
 
+### Installation
+
+Installed and maintained with GNU Stow
+
+`stow macos`
+
+
 ### Todo
 
 * Make Ubuntu .bashrc minimal

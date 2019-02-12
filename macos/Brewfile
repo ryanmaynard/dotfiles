@@ -57,6 +57,7 @@ brew pyenv
 brew pyenv-virtualenv
 brew pyenv-virtualenvwrapper
 brew rbenv
+brew stow
 brew tmux
 brew tree
 
