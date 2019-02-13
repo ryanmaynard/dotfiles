@@ -43,6 +43,9 @@ Plugin 'mattn/emmet-vim'
 " Markdown syntax
 Plugin 'tpope/vim-markdown'
 
+# Git-gutter
+Plugin 'airblade/vim-gitgutter'
+
 " Markdown Viewer
 Plugin 'JamshedVesuna/vim-markdown-preview'
 
