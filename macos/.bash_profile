@@ -326,6 +326,8 @@ alias de='cd ~/Desktop'
 alias dl='cd ~/Downloads'
 # Jumps to Dropbox
 alias dp='cd ~/Dropbox'
+# Jumps to Drive
+alias dr='cd ~/Drive'
 # Jumps to Synology 12-bay ds2415+
 alias snas='cd /Volumes/Shared/sds'
 # Jumps to external hard drive mybook
@@ -353,10 +355,10 @@ function tovi (){
   touch "$1"
   vim "$1"
 }
-# Use touch + sublime
-function tosu (){
+# Use touch + vscode
+function toco (){
   touch "$1"
-  sublime "$1"
+  code "$1"
 }
 # Open file in macdown
 function md (){
