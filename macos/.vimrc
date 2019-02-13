@@ -30,6 +30,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-markdown'
 " vim-lightline
 Plug 'itchyny/lightline.vim'
+" vim-gitgutter
+Plug 'airblade/vim-gitgutter'
 
 
 call plug#end()
