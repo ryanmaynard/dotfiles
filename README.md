@@ -15,8 +15,6 @@ Installed and maintained with GNU Stow
 
 ### Todo
 
-* Make Ubuntu .bashrc minimal
-* Remove macos related functions from ubuntu .bashrc if applicable
 * Thoroughly test Brewfile, especially check order of setup.sh
 
 
