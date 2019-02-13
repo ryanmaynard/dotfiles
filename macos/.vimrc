@@ -1,151 +1,70 @@
-"               ABOUT                           {{{
+"               ABOUT                           
 """""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer:   Ryan Maynard
 "               https://ryanmaynard.co/about 
 "               hi@ryanmaynard.co
 "
 "
-" Sections:     Vundle - Plugin Management
-"               General Settings
-"               VIM User Interface
-"               Colors & Fonts
-"               Searching 
-"               Folding
-"               Mappings
-"               Plugin Settings
+" Sections: 
+"
 "
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""
-"}}}
-"               VUNDLE SETTINGS                 {{{
 
+
+" Use Vim settings, rather than Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
 set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" Let vundle manage itself
-Plugin 'VundleVim/Vundle.vim'
-
-" Ton of color schemes
-Plugin 'flazz/vim-colorschemes'
-
-" Fuzzy finder
-Plugin 'kien/ctrlp.vim'
-
-" Easily toggle comments
-Plugin 'tpope/vim-commentary'
-
-" Emmet
-Plugin 'mattn/emmet-vim'
-
-" Markdown syntax
-Plugin 'tpope/vim-markdown'
-
-" Markdown Viewer
-Plugin 'JamshedVesuna/vim-markdown-preview'
-
-" Lightweight powerline
-Plugin 'itchyny/lightline.vim'
-
-call vundle#end()
-filetype plugin indent on    " Filetype auto-detection
+" Make backspace behave in a sane manner.
+set backspace=indent,eol,start
+" Switch syntax highlighting on
 syntax on
+" vim-plug setup
+call plug#begin('~/.vim/plugged')
+
+" Tons of color schemes
+Plug 'flazz/vim-colorschemes'
+" Easily toggle comments
+Plug 'tpope/vim-commentary'
+" Markdown syntax
+Plug 'tpope/vim-markdown'
+" vim-lightline
+Plug 'itchyny/lightline.vim'
 
 
-"}}}
-"               GENERAL SETTINGS                {{{                              
-
-set shell=/bin/bash
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab       " Use spaces instead of tabs
-set smarttab        " Lets tab key insert tab stops, and bksp deletes tabs
-set shiftround      " tab/shifting moves to closest tabstop
-set autoindent      " Match indents to new lines
-set smartindent     " Intelligently indent/dedent based on rules
-
-" Obsolete; always use vcs
-set nobackup
-set nowritebackup
-set noswapfile
-
-" Persistent undo
-set undodir=~/.vim/undo/
-set undofile
-set undolevels=1000
-set undoreload=10000
-
-" Tab nav aliases
-cabbrev tp tabprev
-cabbrev tn tabnext
-cabbrev tf tabfirst
-cabbrev tl tablast
+call plug#end()
 
 
-"}}}
-"               VIM USER INTERFACE              {{{
-
-set ruler
+" Enable file type detection and do language-dependent indenting.
+filetype plugin indent on
+" Security
+set modelines=0
+" Show line numbers
 set number
-set numberwidth=5
-set cursorline
-hi Cursorline cterm=bold
-set lines=999 columns=999
-
-set hidden      " allow buffers with unsaved changes
-set autoread    " When file has changed, just load; no questions
-
-
-
-"}}}
-"               COLORS & FONTS                  {{{
-
-set guifont=Menlo\ Regular:h14
-colorscheme obsidian
+" Show file stats
+set ruler
+" Encoding
 set encoding=utf-8
 
 
-"}}}
-"               SEARCH SETTINGS                 {{{
-
-set ignorecase  " case insensitive search
-set smartcase   " if there are upper case, become case-sensitive
-set incsearch   " live incremental searching
-set showmatch   " live match highlighting
-set hlsearch    " highlight matches
-set gdefault    " use the 'g' flag by default
-
-
-"}}}
-"               FOLDING SETTINGS                {{{
-
-set foldmethod=marker
+" Whitespace
+set wrap
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set noshiftround
 
 
-"}}}
-"               MAPPING SETTINGS                {{{
+" PLUGIN SETTINGS
 
-let mapleader=","   
-let maplocalleader="\\"     
-inoremap jk <esc>   
-noremap j gj
-noremap k gk
+" Colorscheme settings
+set guifont=Menlo\ Regular:h14
+colorscheme obsidian
 
-
-
-"}}}
-"               PLUGIN SETTINGS                 {{{
-
-nnoremap <leader>c <Plug>CommentaryLine
-" Emmet settings
-let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
 " Lightine settings
+set laststatus=2
 set t_Co=256
 let g:lightline = {'colorscheme':'wombat',}
-" Vim-Markdown
-let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
-"}}}

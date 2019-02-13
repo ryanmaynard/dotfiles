@@ -16,7 +16,7 @@ Installed and maintained with GNU Stow
 ### Todo
 
 * Group items in Brewfile by category, check sequence
-
+* Completely redo .vimrc and tmux.conf
 
 ### License
 
