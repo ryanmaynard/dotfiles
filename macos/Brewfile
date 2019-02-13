@@ -12,6 +12,7 @@
 
 brew 'bash'
 brew 'binutils'
+brew 'cask'
 brew 'coreutils'
 brew 'diffutils'
 brew 'docker'

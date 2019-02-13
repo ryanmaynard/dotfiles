@@ -15,7 +15,7 @@ Installed and maintained with GNU Stow
 
 ### Todo
 
-* Thoroughly test Brewfile, especially check order of setup.sh
+* Group items in Brewfile by category, check sequence
 
 
 ### License
