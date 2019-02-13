@@ -4,23 +4,24 @@ A few alfred workflows to add to a new machine.
 
 ### Contents
 
-* [App Freeze][appfreeze]
-* [Audio Switch][audioswitch]
-* [Flush DNS][flushdns]
+
 * [Colors][colors]
-* [IP Address][ip]
-* [Speedtest][speedtest]
-* [SynAnt][synant]
-* [Temporary Email][tempemail]
-* [Alfred Workflow Library][workflowlib]
+* [Convert][convert]
+* [DNS Propagation Check][dns]
+* [Flush DNS][flushdns]
+* [Launch URL in 3 Browsers][launch]
+* [Mac App Store Search][mas]
+* [NPM Search][npm]
+* [Zapier for Alfred][zapier]
 
 
-[appfreeze]: http://www.packal.org/workflow/appfreeze
-[audioswitch]: https://github.com/sampayo/Alfred-WorkFlows/tree/master/Audio%20Switch
-[flushdns]: https://github.com/cdraeger/alfred2-flushdns-workflow
+
+
 [colors]: http://www.packal.org/workflow/colors
-[ip]: http://dferg.us/ip-address-workflow/
-[speedtest]: http://www.packal.org/workflow/speedtest
-[synant]: https://github.com/vitorgalvao/alfred-workflows/tree/master/SynAnt
-[tempemail]: http://www.packal.org/workflow/temporaryemail
-[workflowlib]: https://github.com/sampayo/Alfred-WorkFlows/tree/master/Audio%20Switch  
+[convert]: http://www.packal.org/workflow/convert
+[dns]: http://www.packal.org/workflow/dns-propagation-checker
+[flushdns]: https://github.com/cdraeger/alfred2-flushdns-workflow
+[launch]: http://www.packal.org/workflow/launch-url-3-browsers
+[mas]: http://www.packal.org/workflow/mac-app-store-search
+[npm]: http://www.packal.org/workflow/alfred-npm-search
+[zapier]: http://www.packal.org/workflow/zapier-alfred
