@@ -141,6 +141,8 @@ alias l1a='ls -1a'
 alias t2='tree -L 2'
 # Markdown editor remarkable
 alias md='remarkable'
+# Replace cat with bat
+alias cat='bat'
 
 # Directory Navigation
 alias ..='cd ../'                           # Go back 1 directory level

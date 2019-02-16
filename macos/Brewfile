@@ -11,6 +11,7 @@
 # BINARIES
 
 brew 'bash'
+brew 'bat'
 brew 'binutils'
 brew 'cask'
 brew 'coreutils'

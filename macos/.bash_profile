@@ -268,7 +268,8 @@ alias bcl='brew cask list -1'
 alias sudo='sudo '
 # Removes all .DS_Store files that it can find recursively
 alias killDS='sudo find / -name ".DS_Store" -depth -exec rm {} \;'
-
+# Replace cat with bat
+alias cat='bat'
 
 # Clear screen and history
 alias c='clear && history -c'
