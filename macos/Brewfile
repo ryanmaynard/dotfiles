@@ -46,6 +46,7 @@ brew 'watch'
 brew 'wdiff'
 brew 'wget', args: ['with-iri']
 brew 'xquartz', args: ['force']
+brew 'yarn', args: ['ignore-dependencies']
 
 
 # BREW CASK APPS
