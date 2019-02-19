@@ -13,6 +13,7 @@ PROMPT_DIRTRIM=3
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
+
 #}}}
 # ---------------------------------------------------------------
 #                        ANDROID                              {{{
@@ -430,9 +431,6 @@ alias gbbb="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD)
 # ---------------------------------------------------------------
 #                           TEMP                              {{{
 # ---------------------------------------------------------------
-
-# For gitcontact auth
-export GH_EMAIL_TOKEN=fb5d04399a055cef9248b86ccb970426ad92aff7
 
 
 #}}}

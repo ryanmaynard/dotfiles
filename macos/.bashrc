@@ -8,3 +8,5 @@
 
 # added by pipsi (https://github.com/mitsuhiko/pipsi)
 export PATH="/Users/Demosthenes/.local/bin:$PATH"
+
+eval "$(fasd --init auto)"
