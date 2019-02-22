@@ -45,6 +45,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+
 # }}}
 # ---------------------------------------------------------------
 #                               GOENV                         {{{
@@ -139,6 +140,13 @@ alias rd='rails dbconsole'
 alias rp='rails plugin'
 alias ra='rails application'
 alias rd='rails destroy'
+
+#}}}
+# ---------------------------------------------------------------
+#                               RUST                         {{{
+# ---------------------------------------------------------------
+
+export PATH="$HOME/.cargo/bin:$PATH"
 
 #}}}
 # ---------------------------------------------------------------
@@ -376,7 +384,7 @@ function dev (){
     fi
 }
 function lh (){
-    open http://localhost:"$1"
+    open http://127.0.0.1:"$1"
 }
 # Bash script exec 
 function bs (){
