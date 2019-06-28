@@ -10,13 +10,14 @@ A disorganized heap of dotfiles
 
 Installed and maintained with GNU Stow
 
-`stow macos`
-
 
 ### Todo
 
-* Group items in Brewfile by category, check sequence
-* Completely redo .vimrc and tmux.conf
+* Experiment with bash-env
+* Try using bash-it again
+* Add either z or autojump
+* Remove a lot of old, unused aliases
+* Redo setup.sh for mac and ubuntu
 
 ### License
 
