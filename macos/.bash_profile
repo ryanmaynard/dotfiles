@@ -95,6 +95,7 @@ alias nr="npm run"
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 #}}}
 # ---------------------------------------------------------------
@@ -145,8 +146,6 @@ alias rd='rails destroy'
 # ---------------------------------------------------------------
 #                               RUST                         {{{
 # ---------------------------------------------------------------
-
-export PATH="$HOME/.cargo/bin:$PATH"
 
 #}}}
 # ---------------------------------------------------------------
@@ -441,4 +440,6 @@ alias gbbb="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD)
 # ---------------------------------------------------------------
 
 
+
 #}}}
+
