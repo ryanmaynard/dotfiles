@@ -408,7 +408,7 @@ export HISTTIMEFORMAT="[$(tput setaf 6)%F %T$(tput sgr0)]: "
 
 #}}}
 # ---------------------------------------------------------------
-#                           GITHUB CMD                        {{{
+#                           GIT CMD                           {{{
 # ---------------------------------------------------------------
 
 alias gb='git branch'
@@ -443,3 +443,5 @@ alias gbbb="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD)
 
 #}}}
 
+
+export PATH="$HOME/.cargo/bin:$PATH"
