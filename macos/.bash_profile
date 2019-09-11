@@ -147,6 +147,9 @@ alias rd='rails destroy'
 #                               RUST                         {{{
 # ---------------------------------------------------------------
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
+
 #}}}
 # ---------------------------------------------------------------
 #                    TERMINAL FUNCTION                        {{{
@@ -326,8 +329,7 @@ alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
 alias .3='cd ../../../'                     # Go back 3 directory levels
 alias .4='cd ../../../../'                  # Go back 4 directory levels
-alias .5='cd ../../../../../'               # Go back 5 directory levels
-alias .6='cd ../../../../../../'            # Go back 6 directory levels
+
 
 # Jumps to desktop
 alias de='cd ~/Desktop'
@@ -339,8 +341,7 @@ alias dp='cd ~/Dropbox'
 alias dr='cd ~/Drive'
 # Jumps to Synology 12-bay ds2415+
 alias snas='cd /Volumes/Shared/sds'
-# Jumps to external hard drive mybook
-alias mybook='cd /Volumes/mybook'
+
 
 
 # Alias for docker-machine
@@ -444,4 +445,3 @@ alias gbbb="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD)
 #}}}
 
 
-export PATH="$HOME/.cargo/bin:$PATH"
