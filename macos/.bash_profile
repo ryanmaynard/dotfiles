@@ -45,6 +45,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+# Zsh change suppression
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 
 # }}}
 # ---------------------------------------------------------------
